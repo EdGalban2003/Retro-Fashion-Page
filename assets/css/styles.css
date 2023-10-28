@@ -75,7 +75,44 @@
 
 }
 
+.txt {
+    font-family: 'Noto Serif JP', serif;
+    margin-left: 10px;
+}
+
+.parrafos {
+    font-family: 'Noto Sans Kawi', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
 .barras {
     background-color: rgb(195, 159, 219);
     height: 0.2em;
 }
+
+
+.cont2{
+    display: inline-block;
+
+}
+
+
+.img1 {
+    border-radius: 50%;
+    height: 70%;
+    width: 70%;
+    vertical-align: middle;
+
+
+}
+
+.img1-1 {
+    border-radius: 50%;
+    height: 35%;
+    width: 35%;
+    vertical-align: middle;
+
+}
+
