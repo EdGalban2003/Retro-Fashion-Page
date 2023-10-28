@@ -2,7 +2,7 @@
 .body {
     margin: 0;
     padding: 0;
-    background-color:    rgb(195, 159, 219);
+    background-color: #ffc349;
     display: grid;
     justify-content: center; 
     align-items: center; 
@@ -13,7 +13,7 @@
 
 /* Estilos CSS para el espacio separado del fondo*/
 .ttbr {
-    background-color: #e498e4c0; 
+    background-image: url('https://c8.alamy.com/compes/2a3nkre/fondo-dorado-diseno-elegante-y-de-diseno-sin-costuras-de-lujo-2a3nkre.jpg');
     height: 10em;  
     margin-left: 18%;
     margin-right: 18%;
@@ -28,7 +28,7 @@
     text-align: center;
     font-family: 'Beau Rivage', cursive;
     font-size: 400%;
-    background-color: rgba(253, 191, 255, 0.5);
+    background-color: rgba(245, 242, 80, 0.897);
     border-radius: 50%;
     margin-left: 30%;
     margin-right: 30%;
@@ -86,6 +86,7 @@
 /* Estilos CSS para los parrafos */
 .parrafos {
     font-family: 'Noto Serif JP', serif;
+    text-align: justify;
     margin-left: 15%;
     margin-right: 15%;
 
@@ -95,7 +96,7 @@
 
 /* Estilos CSS para las barras que separan los articulos */
 .barras {
-    background-color: rgb(195, 159, 219);
+    background-color: #ffc349;
     height: 0.2em;
 }
 /* --------------------------------------------- */
@@ -105,13 +106,13 @@
 .cont2{
     display: flex;
     align-items: center;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 /* Estilos CSS para las imagenes de los autores */
 .img1 {
     border-radius: 50%;
-    height: 7%;
-    width: 7%;
+    height: 10%;
+    width: 10%;
     vertical-align: middle;
 }
 /* Estilos CSS para la info de los autores */
@@ -120,8 +121,10 @@
 }
 /* Estilos CSS para la info de los autores 2 */
 .txt2 {
+    text-align: inherit;
     font-family: 'Noto Serif JP', serif;
-    margin-left: 10px;
+    font-size: 0.7em;
+    margin-left: 4%;
     display: flex;
     flex-direction: column;
 }
