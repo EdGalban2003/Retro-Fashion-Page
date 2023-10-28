@@ -8,33 +8,35 @@
     align-items: center; 
     min-height: 100vh; 
 }
+/* --------------------------------------------- */
 
 
-/* Estilos CSS para el espacio de color negro */
+/* Estilos CSS para el espacio separado del fondo*/
 .ttbr {
     background-color: #e498e4c0; 
     height: 10em;  
     margin-left: 18%;
     margin-right: 18%;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 8);
-    
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 8);  
 }
+/* --------------------------------------------- */
 
 
+/* Estilos CSS para el nombre de la pagina*/
 .nbp {
     color: #000000;
     text-align: center;
     font-family: 'Beau Rivage', cursive;
     font-size: 400%;
     background-color: rgba(253, 191, 255, 0.5);
-    border-radius: 1em;
+    border-radius: 50%;
     margin-left: 30%;
     margin-right: 30%;
-
 }
+/* --------------------------------------------- */
 
 
-/* Estilos CSS para el espacio de separacion con el fondo*/
+/* Estilos CSS para el Bordeado de toda la pagina*/
 .cont {
     margin-top: 0%;
     margin-bottom: 0%;
@@ -45,9 +47,9 @@
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
     border-radius: 0%;
     text-align: center;
-    
 }
-/* Estilos CSS para el espacio de color negro */
+/* --------------------------------------------- */
+
 
 /* Estilos CSS para la imagen de portada */
 .imgp {
@@ -55,8 +57,10 @@
     width: 90%;
 
 }
-/* Estilos CSS para el espacio de color negro */
+/* --------------------------------------------- */
 
+
+/* Estilos CSS para los titulos */
 .titulos {
     font-family: 'Noto Serif JP', serif;
     font-size: 3em;
@@ -66,53 +70,67 @@
     margin-right: 5%;
 
 }
+/* --------------------------------------------- */
 
+
+/* Estilos CSS para los subtitulos */
 .subtitulos {
     font-family: 'Noto Serif JP', serif;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
     font-size: 1.5em;
-
 }
+/* --------------------------------------------- */
 
-.txt {
-    font-family: 'Noto Serif JP', serif;
-    margin-left: 10px;
-}
 
+/* Estilos CSS para los parrafos */
 .parrafos {
-    font-family: 'Noto Sans Kawi', sans-serif;
+    font-family: 'Noto Serif JP', serif;
     margin-left: 15%;
     margin-right: 15%;
 
 }
+/* --------------------------------------------- */
 
+
+/* Estilos CSS para las barras que separan los articulos */
 .barras {
     background-color: rgb(195, 159, 219);
     height: 0.2em;
 }
+/* --------------------------------------------- */
 
 
+/* Estilos CSS para el contenedor de los autores */
 .cont2{
-    display: inline-block;
-
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
 }
-
-
+/* Estilos CSS para las imagenes de los autores */
 .img1 {
     border-radius: 50%;
-    height: 70%;
+    height: 7%;
+    width: 7%;
+    vertical-align: middle;
+}
+/* Estilos CSS para la info de los autores */
+.txt {
+    margin: 0;
+}
+/* Estilos CSS para la info de los autores 2 */
+.txt2 {
+    font-family: 'Noto Serif JP', serif;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+/* --------------------------------------------- */
+
+
+.img2 {
     width: 70%;
-    vertical-align: middle;
+    height: 60%;
 
 
 }
-
-.img1-1 {
-    border-radius: 50%;
-    height: 35%;
-    width: 35%;
-    vertical-align: middle;
-
-}
-
