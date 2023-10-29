@@ -5,7 +5,7 @@
     background-color: #ffc349;
     display: grid;
     justify-content: center; 
-    align-items: center; 
+    align-items: center; /*(NOTA: ¡NO BORRAR NUNCA!. Se rompe todo)*/
     min-height: 100vh; 
 }
 /* --------------------------------------------- */
@@ -130,10 +130,9 @@
 }
 /* --------------------------------------------- */
 
-
+/* Estilos CSS para las imagenes */
 .img2 {
     width: 70%;
     height: 60%;
-
-
 }
+/* --------------------------------------------- */
