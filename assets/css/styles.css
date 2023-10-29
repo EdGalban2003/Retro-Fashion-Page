@@ -4,25 +4,21 @@
     padding: 0;
     background-color: #ffc349;
     display: grid;
-    justify-content: center; 
+    justify-content: center;
     align-items: center; /*(NOTA: ¡NO BORRAR NUNCA!. Se rompe todo)*/
-    min-height: 100vh; 
+    min-height: 100vh;
 }
-/* --------------------------------------------- */
 
-
-/* Estilos CSS para el espacio separado del fondo*/
+/* Estilos CSS para el espacio separado del fondo */
 .ttbr {
     background-image: url('https://c8.alamy.com/compes/2a3nkre/fondo-dorado-diseno-elegante-y-de-diseno-sin-costuras-de-lujo-2a3nkre.jpg');
-    height: 10em;  
+    height: 10em;
     margin-left: 18%;
     margin-right: 18%;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 8);  
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 8);
 }
-/* --------------------------------------------- */
 
-
-/* Estilos CSS para el nombre de la pagina*/
+/* Estilos CSS para el nombre de la pagina */
 .nbp {
     color: #000000;
     text-align: center;
@@ -33,10 +29,8 @@
     margin-left: 30%;
     margin-right: 30%;
 }
-/* --------------------------------------------- */
 
-
-/* Estilos CSS para el Bordeado de toda la pagina*/
+/* Estilos CSS para el Bordeado de toda la pagina */
 .cont {
     margin-top: 0%;
     margin-bottom: 0%;
@@ -48,17 +42,12 @@
     border-radius: 0%;
     text-align: center;
 }
-/* --------------------------------------------- */
-
 
 /* Estilos CSS para la imagen de portada */
 .imgp {
     height: 100%;
     width: 90%;
-
 }
-/* --------------------------------------------- */
-
 
 /* Estilos CSS para los titulos */
 .titulos {
@@ -68,10 +57,7 @@
     font-style: oblique;
     margin-left: 5%;
     margin-right: 5%;
-
 }
-/* --------------------------------------------- */
-
 
 /* Estilos CSS para los subtitulos */
 .subtitulos {
@@ -80,8 +66,6 @@
     margin-right: 8%;
     font-size: 1.5em;
 }
-/* --------------------------------------------- */
-
 
 /* Estilos CSS para los parrafos */
 .parrafos {
@@ -89,25 +73,21 @@
     text-align: justify;
     margin-left: 15%;
     margin-right: 15%;
-
 }
-/* --------------------------------------------- */
-
 
 /* Estilos CSS para las barras que separan los articulos */
 .barras {
     background-color: #ffc349;
     height: 0.2em;
 }
-/* --------------------------------------------- */
-
 
 /* Estilos CSS para el contenedor de los autores */
-.cont2{
+.cont2 {
     display: flex;
     align-items: center;
     margin-left: 15%;
 }
+
 /* Estilos CSS para las imagenes de los autores */
 .img1 {
     border-radius: 50%;
@@ -115,10 +95,12 @@
     width: 10%;
     vertical-align: middle;
 }
+
 /* Estilos CSS para la info de los autores */
 .txt {
     margin: 0;
 }
+
 /* Estilos CSS para la info de los autores 2 */
 .txt2 {
     text-align: inherit;
@@ -128,11 +110,34 @@
     display: flex;
     flex-direction: column;
 }
-/* --------------------------------------------- */
 
 /* Estilos CSS para las imagenes */
 .img2 {
     width: 70%;
     height: 60%;
 }
-/* --------------------------------------------- */
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 768px) {
+    /* Ajusta los estilos para dispositivos móviles aquí */
+    .cont {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .titulos {
+        font-size: 2em;
+    }
+    .subtitulos {
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 1.2em;
+    }
+    .parrafos {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .img2 {
+        width: 100%;
+        height: auto;
+    }
+}
